@@ -5,7 +5,7 @@ import Datatypes from "./components/Datatypes";
 import Projects from "./components/Projects";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
   return (

@@ -12,12 +12,13 @@ body {
 .wrapper {
   display: flex;
   position: relative;
+  font-family: "Noto Sans", sans-serif;
 }
 .wrapper .sidebar {
   position: fixed;
   width: 200px;
   height: 100%;
-  background: #30336B;
+  background: #30336b;
   padding: 30px 0;
 }
 .wrapper .sidebar h3 {
@@ -31,7 +32,27 @@ body {
   border-bottom: 1px rgba(0, 0, 0, 0.05);
   border-top: 1px rgba(225, 225, 225, 0.05);
 }
-.all-page{
-  display: flex;
-  justify-content: center;
+/* .all-page{
+width: 100%;
+margin-left: 200px;
+e
+align-items: flex-start;
+padding: 0;
+} */
+.introduction-1 {
+  position: sticky;
+  /* box-sizing: border-box; */
+  margin-left: 200px;
+  padding: 50px;
+  width: auto;
+  border: 1px solid black;
+  padding: 100;
+  flex-wrap: wrap;
 }
+.button {
+  border: none;
+  align-content: flex-end;
+}
+
+
+
